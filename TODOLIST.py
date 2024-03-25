@@ -67,7 +67,7 @@ class TodoListApp(tk.Tk):
         if task_index:
             self.task_list.itemconfig(task_index, fg="green")
             self.save_tasks()
-            messagebox.showinfo("Task status", "Task completed.")
+            messagebox.showinfo("Task status", "Task completed.") # Popup message for task done
 
     # Delete task dialog
     def delete_task_dialog(self):
