@@ -9,6 +9,8 @@ class TodoListApp(tk.Tk):
         # Window setup
         self.title("Todo List App")
         self.geometry("400x400")
+        self.maxsize(400, 400)
+        self.minsize(400, 400)
         style = Style(theme="flatly")
         self.configure(background="light green")
         
